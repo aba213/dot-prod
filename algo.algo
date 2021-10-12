@@ -1,0 +1,51 @@
+algo.dotprod
+BEGIN 
+PROCEDURE read-vect(n:INTEGER,VAR v1,v2: ARRAY_OF INTEGER)
+FOR i=1:n{
+ v1,v2=INTEGER [5]
+ read_ vect(1)
+  read_vect(2)
+  end for
+}
+PROCEDURE vect-orto (ps:INTEGER)
+BEGIN 
+VAR 
+ ps:double 
+ ps=produit_scalaire(v1, v2);
+
+
+ if(p  s == 0) {
+
+ write(" les deux vecteurs de la couple " + i + "sont ortogonaux");
+ end if }
+
+ end}
+ PROCEDURE produit-scalaire(ps,n:INTEGER;v1,v2:ARRAY_OF INTEGER)
+
+ read_vect(v1, length) {
+
+ for i=0:length-1
+ read(v[i])
+ end for}
+
+ productScalaire(v1, v2) {
+ produit_scalaire: double = 0;
+ for i=1: length {
+ produit_scalaire = produit_scalaire + v1[i]*v2[i];
+
+ end for}
+ retour produit_scalaire;
+
+ end}
+
+
+ALGORITHM dot_product
+VAR
+   l,ps:INTEGER;
+   v1,v2 : INTEGER [5];
+BEGIN
+  read(l);
+   read-vect(l,v1,v2);
+  produit-scalaire(ps,l,v1,v2);
+ vect-orto(l);
+END
